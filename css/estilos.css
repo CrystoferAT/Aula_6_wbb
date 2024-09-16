@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    background-color: white;
+    width:100%;
+    height: 100%;
+    margin: 0px;
+}
+h1 {
+    margin: 0px;
+}
+main h1{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 80px;
+    padding-top: 0%;
+}
+header{
+    width:100%;
+    height: 150px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    text-align: center;
+}
+#nav_esq, #nav_dir {
+    display: inline-block;
+    width: 600px;
+    background-color: white; 
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+#nav_esq a, #nav_dir a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    color:black
+}
+#nav_esq a:hover, #nav_dir a:hover{
+     background-color: aqua; 
+    color:brown;
+    font-weight: bold;
+}
+#nav_logo{
+    display: inline-block;
+    width:120px;
+    height: 120px;
+    background-color: rgb(220, 240, 245);
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url(../img/icones/logop.png);
+    background-image: no-repeat;
+    background-position: center center;
+    background-size: 115px 115px;
+}
+#nav_logo:hover{
+    display: inline-block;
+    background-image:url(../img/icones/logoG.png);
+    background-size: 150px 150px;
+    
+}
+
+
+main{
+    width:1200px;
+    height:1200px;
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+footer{
+    width:100%;
+    height: 120px;
+    background-color: white;
+
+}
+#contato_form, #contato_img{
+    width:45%;
+    height:400px ;
+    border: 2px solid #888888;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+main section{
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
+
+#nome, #senha, #op{
+    width: 350px;
+    margin-bottom: 10px;
+    padding: 5px; 
+}
+#contato_img{
+
+}
+.menu_atual{
+    background-color: aqua; 
+    color:brown;
+    font-weight: bold;
+}
