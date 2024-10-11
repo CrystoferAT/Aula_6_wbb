@@ -56,6 +56,15 @@ nav{
     background-position: center center;
     background-size: 115px 115px;
 }
+.logo {
+    width: 100%; 
+    height: 100%; 
+    background-image: url(../img/download.png);
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-size: 100%; 
+    transition: background-size 0.3s ease; 
+}
 #nav_logo:hover{
     display: inline-block;
     background-image:url(../img/icones/logoG.png);
